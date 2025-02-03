@@ -8,6 +8,9 @@ alert("Error! Please enter a valid password");
 //Question:03
 alert("Welcome to First JS Assignment \n Raja'$ coding!");
 
+//Question:04
+//These Alert are allready Sequence
+
 //Question:05
 console.log("Hello This Is a Developer Console");
 
@@ -50,12 +53,35 @@ var book = " A smarter \n way to learn JavaScript";
 alert("I am trying to learn from the book" + book);
 
 //Question:08
-var script = "Yeh! I can write HTML content through java script";
+var script = "Yeh! I can write HTML content through java script <br> ";
 document.write(script);
 
 //Question:09
 var design = "“▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬”";
 alert(design);
+
+//Variables For Number
+//Question:01
+var age = "I am 17 year old";
+alert(age);
+
+//Question:02
+var visit = "You have visited this site 15 times"
+alert(visit);
+
+//Question:03
+var birthYear = 2008;
+document.write(" <br>My birth year is " + birthYear)
+document.write(" <br> Data type of my declared variable is number <br><br> ")
+
+//Question:04
+var visitorName = "Ahmad";
+var productTitle = "Glasses";
+var quantity = 3;
+document.write(visitorName + " ordered " + quantity + productTitle + " on Raja'$ Optical's store.");
+
+
+
 
 
 
